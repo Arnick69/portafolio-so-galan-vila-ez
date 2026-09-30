@@ -1,11 +1,11 @@
-### Comandos de configuración inicial de Git
+### Dagiti bilin iti immuna a panangikonfigura iti Git
 
-| Comando Git | ¿Qué hace el comando? |
+| Bilin ti Git | Ania ti aramiduen ti bilin? |
 | :--- | :--- |
-| `echo "# portafolio-so-rumipamba" >> README.md` | Crea el archivo README.md y le añade el título principal del proyecto. |
-| `git init` | Inicializa un nuevo repositorio de Git vacío en tu carpeta local. |
-| `git add README.md` | Prepara el archivo para ser guardado (lo añade al área de preparación de Git). |
-| `git commit -m "first commit"` | Guarda el cambio localmente en el historial con el mensaje descriptivo "first commit". |
-| `git branch -M main` | Nombra la rama principal del proyecto como `main`. |
-| `git remote add origin https://github.com/rudaruza20/portafolio-so-rumipamba.git` | Vincula tu carpeta local con el repositorio en la nube de GitHub. |
-| `git push -u origin main` | Sube los archivos locales a GitHub y configura `main` como la rama por defecto para el futuro. |
+| `echo "# portafolio-so-galan-vila-ez" >> README.md` | Mangparnuay iti file a README.md ket inayonanna ti paulo ti proyekto. |
+| `git init` | Mangrugi iti baro ken awan naganna a repository ti Git iti lokal a folder. |
+| `git add README.md` | Isagana ti file para iti panagidulin (inayon iti staging area ti Git). |
+| `git commit -m "first commit"` | Idulin ti panagbalbaliw iti lokal a pakasaritaan babaen ti deskripsion a "first commit". |
+| `git branch -M main` | Pananginagan iti kangrunaan a sanga (branch) ti proyekto kas `main`. |
+| `git remote add origin https://github.com/Arnick69/portafolio-so-galan-vila-ez.git` | Ikaput ti lokal a folder iti bukodmo a repository sadiay GitHub. |
+| `git push -u origin main` | I-upload dagiti lokal a file sadiay GitHub ket isaadna ti `main` kas default a sanga. |
