@@ -1,11 +1,8 @@
-### Dagiti bilin iti immuna a panangikonfigura iti Git
+### Listado de Comandos básicos del Sistema Operativo
 
-| Bilin ti Git | Ania ti aramiduen ti bilin? |
-| :--- | :--- |
-| `echo "# portafolio-so-galan-vila-ez" >> README.md` | Mangparnuay iti file a README.md ket inayonanna ti paulo ti proyekto. |
-| `git init` | Mangrugi iti baro ken awan naganna a repository ti Git iti lokal a folder. |
-| `git add README.md` | Isagana ti file para iti panagidulin (inayon iti staging area ti Git). |
-| `git commit -m "first commit"` | Idulin ti panagbalbaliw iti lokal a pakasaritaan babaen ti deskripsion a "first commit". |
-| `git branch -M main` | Pananginagan iti kangrunaan a sanga (branch) ti proyekto kas `main`. |
-| `git remote add origin https://github.com/Arnick69/portafolio-so-galan-vila-ez.git` | Ikaput ti lokal a folder iti bukodmo a repository sadiay GitHub. |
-| `git push -u origin main` | I-upload dagiti lokal a file sadiay GitHub ket isaadna ti `main` kas default a sanga. |
+| Acción a realizar | Comando en Windows (PowerShell) | Comando en Linux (Bash) | ¿Qué hace este comando? |
+| :--- | :--- | :--- | :--- |
+| **Ver memoria RAM** | `Get-CimInstance Win32_PhysicalMemory` | `free -h` o `cat /proc/meminfo` | Muestra la cantidad de memoria RAM instalada y el espacio disponible. |
+| **Ver disco duro** | `Get-PhysicalDisk` y `Get-Volume` | `lsblk` y `df -h` | Muestra los discos físicos conectados y el espacio libre en las particiones. |
+| **Ver dispositivos de E/S** | `Get-PnpDevice -PresentOnly` | `lsusb` o `lspci` | Lista los periféricos y componentes de hardware (Entrada/Salida) conectados al equipo. |
+| **Resumen del sistema** | `systeminfo` o `msinfo32` | `lshw` o `inxi -F` | Despliega un resumen general de las propiedades del sistema operativo y del hardware. |
