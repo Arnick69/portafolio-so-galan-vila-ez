@@ -1,8 +1,11 @@
-### Listado de Comandos básicos del Sistema Operativo
+### Comandos de configuración inicial de Git
 
-| Acción a realizar | Comando en Windows (PowerShell) | Comando en Linux (Bash) | ¿Qué hace este comando? |
-| :--- | :--- | :--- | :--- |
-| **Ver memoria RAM** | `Get-CimInstance Win32_PhysicalMemory` | `free -h` o `cat /proc/meminfo` | Muestra la cantidad de memoria RAM instalada y el espacio disponible. |
-| **Ver disco duro** | `Get-PhysicalDisk` y `Get-Volume` | `lsblk` y `df -h` | Muestra los discos físicos conectados y el espacio libre en las particiones. |
-| **Ver dispositivos de E/S** | `Get-PnpDevice -PresentOnly` | `lsusb` o `lspci` | Lista los periféricos y componentes de hardware (Entrada/Salida) conectados al equipo. |
-| **Resumen del sistema** | `systeminfo` o `msinfo32` | `lshw` o `inxi -F` | Despliega un resumen general de las propiedades del sistema operativo y del hardware. |
+| Comando Git | ¿Qué hace el comando? |
+| :--- | :--- |
+| `echo "# portafolio-so-rumipamba" >> README.md` | Crea el archivo README.md y le añade el título principal del proyecto. |
+| `git init` | Inicializa un nuevo repositorio de Git vacío en tu carpeta local. |
+| `git add README.md` | Prepara el archivo para ser guardado (lo añade al área de preparación de Git). |
+| `git commit -m "first commit"` | Guarda el cambio localmente en el historial con el mensaje descriptivo "first commit". |
+| `git branch -M main` | Nombra la rama principal del proyecto como `main`. |
+| `git remote add origin https://github.com/rudaruza20/portafolio-so-rumipamba.git` | Vincula tu carpeta local con el repositorio en la nube de GitHub. |
+| `git push -u origin main` | Sube los archivos locales a GitHub y configura `main` como la rama por defecto para el futuro. |
