@@ -1,1 +1,19 @@
-
+== Equipo: fieecec-almalinux | Fri Oct 9 20:20:00 -05 2026
+== SO: AlmaLinux 9.4 (Seafoam Ocelot)
+== CPU
+Model name:                           11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+CPU(s):                               4
+Thread(s) per core:                   1
+L1d cache:                            192 KiB
+L1i cache:                            128 KiB
+L2 cache:                             5 MiB
+L3 cache:                             12 MiB
+== Memoria
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       2.1Gi       3.8Gi        52Mi       1.8Gi       5.3Gi
+== Discos
+NAME   SIZE TYPE
+sda     64G disk
+== Red (Extra)
+lo               UNKNOWN        127.0.0.1/8 
+eth0             UP             10.0.2.15/24
