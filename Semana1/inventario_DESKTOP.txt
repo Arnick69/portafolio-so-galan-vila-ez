@@ -1,1 +1,104 @@
 
+=================================================
+
+       ANALISIS DEL SISTEMA - WINDOWS           
+
+=================================================
+
+Fecha y hora: 10/09/2026 19:35:10
+
+Equipo: DESKTOP-FIEECEC
+
+Usuario: FIEECEC
+
+
+
+--- 1. PROCESADOR (CPU) ---
+
+
+
+Name                                      NumberOfCores NumberOfLogicalProcessors
+
+----                                      ------------- -------------------------
+
+11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz         8                        16
+
+
+
+
+
+--- 2. MEMORIA RAM ---
+
+
+
+TotalRAM_GB FreeRAM_GB
+
+----------- ----------
+
+      15.78       6.42
+
+
+
+
+
+--- 3. ALMACENAMIENTO ---
+
+
+
+Name Used_GB Free_GB
+
+---- ------- -------
+
+C     215.40  260.10
+
+
+
+
+
+--- 4. RED Y DIRECCIONES IP ---
+
+
+
+InterfaceAlias IPAddress    
+
+-------------- ---------    
+
+Wi-Fi          192.168.1.45 
+
+Loopback       127.0.0.1    
+
+
+
+
+
+--- 5. PROCESOS CON MAYOR CONSUMO ---
+
+
+
+ProcessName        CPU WorkingSet
+
+-----------        --- ----------
+
+System          184.25   25484288
+
+chrome           95.10  452184064
+
+Code             42.80  289124352
+
+powershell       12.30   94535680
+
+explorer         10.15  145892352
+
+
+
+
+
+--- 6. SISTEMA OPERATIVO ---
+
+
+
+Caption                   Version    OSArchitecture
+
+-------                   -------    --------------
+
+Microsoft Windows 11 Pro  10.0.22631 64-bit 
