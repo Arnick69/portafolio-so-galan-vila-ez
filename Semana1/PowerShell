@@ -1,1 +1,27 @@
+# Script de analisis del sistema - Windows (PowerShell)
+$Output = "salida_windows.txt"
 
+"=================================================" | Out-File -FilePath $Output -Encoding utf8
+"       ANALISIS DEL SISTEMA - WINDOWS           " | Out-File -FilePath $Output -Append -Encoding utf8
+"=================================================" | Out-File -FilePath $Output -Append -Encoding utf8
+"Fecha y hora: $(Get-Date)" \vert{} Out-File -FilePath $Output -Append -Encoding utf8
+"Equipo: $env:COMPUTERNAME" \vert{} Out-File -FilePath $Output -Append -Encoding utf8
+"Usuario: $env:USERNAME" \vert{} Out-File -FilePath $Output -Append -Encoding utf8
+
+"`n--- 1. PROCESADOR (CPU) ---" | Out-File -FilePath $Output -Append -Encoding utf8
+Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors | Out-String | Out-File -FilePath $Output -Append -Encoding utf8
+
+"`n--- 2. MEMORIA RAM ---" | Out-File -FilePath $Output -Append -Encoding utf8
+Get-CimInstance Win32_OperatingSystem | Select-Object @{Name="TotalRAM_GB";Expression={[math]::Round($_.TotalVisibleMemorySize/1MB,2)}}, @{Name="FreeRAM_GB";Expression={[math]::Round($_.FreePhysicalMemory/1MB,2)}} \vert{} Out-String \vert{} Out-File -FilePath$Output -Append -Encoding utf8
+
+"`n--- 3. ALMACENAMIENTO ---" | Out-File -FilePath $Output -Append -Encoding utf8
+Get-PSDrive -PSProvider FileSystem | Select-Object Name, @{Name="Used_GB";Expression={[math]::Round($_.Used/1GB,2)}}, @{Name="Free_GB";Expression={[math]::Round($_.Free/1GB,2)}} | Out-String | Out-File -FilePath $Output -Append -Encoding utf8
+
+"`n--- 4. RED Y DIRECCIONES IP ---" | Out-File -FilePath $Output -Append -Encoding utf8
+Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress | Out-String | Out-File -FilePath $Output -Append -Encoding utf8
+
+"`n--- 5. PROCESOS CON MAYOR CONSUMO ---" | Out-File -FilePath $Output -Append -Encoding utf8
+Get-Process | Sort-Object CPU -Descending | Select-Object -First 5 ProcessName, CPU, WorkingSet | Out-String | Out-File -FilePath $Output -Append -Encoding utf8
+
+"`n--- 6. SISTEMA OPERATIVO ---" | Out-File -FilePath $Output -Append -Encoding utf8
+Get-CimInstance Win32_OperatingSystem | Select-Object Caption, Version, OSArchitecture | Out-String | Out-File -FilePath $Output -Append -Encoding utf8
