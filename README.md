@@ -1,5 +1,5 @@
 # Portafolio Sistemas Operativos - Semana 1
-Estudiantes: Nicolás Galán Leonado Vilañez  
+Estudiantes: Nicolás Galán, Leonado Vilañez  
 **Materia:** Sistemas Operativos  
 **Docente:** Rubén Rumipamba  
 **Tema:** Arquitectura de Computadoras e Inventario de Hardware
