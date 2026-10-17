@@ -1,29 +1,25 @@
-== Equipo: fieecec-almalinux 2026-10-16
-== Arquitectura: x86_64
+ Equipo: fieecec-almalinux 2026-10-16
+ Arquitectura: x86_64
 Byte Order:                         Little Endian
 
-== Cachés
+ Cachés
 NAME ONE-SIZE ALL-SIZE WAYS TYPE        LEVEL
 L1d       48K     192K   12 Data            1
 L1i       32K     128K    8 Instruction     1
 L2      1.3M       5M   10 Unified         2
 L3        12M      12M   12 Unified         3
-
-== Cálculo de Conjuntos L1d: S = C / (L * A)
+ Cálculo de Conjuntos L1d: S = C / (L * A)
 Capacidad L1d (C): 49152 Bytes (48K)
 Tamaño de línea (L): 64 Bytes
 Asociatividad (A): 12 vías
 Conjuntos L1d (S): 64 conjuntos
-
-== RAM y swap
+ RAM y swap
                total        used        free      shared  buff/cache   available
 Mem:           7.7Gi       2.1Gi       3.8Gi        52Mi       1.8Gi       5.3Gi
 Swap:          4.0Gi          0B       4.0Gi
 
-== Discos (NAME, ROTA, SIZE)
+ Discos (NAME, ROTA, SIZE)
 NAME ROTA SIZE
 sda     0  64G
 
-== Extra: Tiempos de recorrido de matriz (Localidad espacial)
-Recorrido por filas (./matriz): 0.042 s (alta localidad espacial - cache hits)
-Recorrido por columnas (./matriz c): 0.315 s (baja localidad espacial - cache misses)
+
