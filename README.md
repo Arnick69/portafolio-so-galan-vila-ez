@@ -1,50 +1,52 @@
-# 💻 Portafolio de Sistemas Operativos - Semana 1
+# ====================================================================
+#    PORTAFOLIO DE SISTEMAS OPERATIVOS | EPN - FIEEC (2026)
+# ====================================================================
 
-¡Hola! Bienvenidos a nuestro portafolio de la primera semana de la materia **Sistemas Operativos**. 
+Bienvenido al repositorio oficial de practicas, scripts de administracion y
+documentacion tecnica de la asignatura de Sistemas Operativos. Aqui
+encontraras la comparativa practica entre entornos Windows (PowerShell) y
+GNU/Linux (Bash / AlmaLinux) desarrollada semana a semana.
 
-**👨‍🎓 Estudiantes:** Nicolás Galán, Leonardo Vilañez  
-**👨‍🏫 Docente:** Rubén Rumipamba  
-**🏫 Institución:** Escuela Politécnica Nacional (EPN)  
-**🎯 Tema:** Arquitectura de Computadoras e Inventario de Hardware
-
----
-
-## 📌 ¿Qué encontrarás en este repositorio?
-
-En esta carpeta hemos documentado y automatizado la recolección de información sobre el hardware, basándonos en los conceptos de arquitectura (CPU, Memoria, E/S y Buses) vistos en la primera semana de clases. 
-
-Los entregables están organizados de la siguiente manera:
-
-* 📝 **`Comandos.md`**: Una ayuda memoria estructurada que incluye la tabla comparativa de comandos entre Windows (PowerShell) y Linux (Bash), comandos esenciales de Git/GitHub, y comandos de inspección a bajo nivel.
-* 🛠️ **`inventario.ps1`**: Un script automatizado en PowerShell diseñado para recolectar las métricas clave de hardware en un entorno Windows.
-* 🐧 **`inventario.sh`**: Un script automatizado en Bash para realizar la misma tarea de inventario dentro de un entorno Linux.
-* 📄 **`inventario_DESKTOP.txt`**: La captura de los resultados generados por el script de Windows (datos obtenidos de la máquina local).
-* 📄 **`inventario_linux.txt`**: La captura de los resultados generados por el script de Linux (datos obtenidos del subsistema Linux/WSL).
++--------------------------------------------------------------------+
+| FICHA TECNICA DEL PROYECTO                                         |
++--------------------------------------------------------------------+
+| [*] Integrantes : Nicolas Galan, Leonardo Vilanez                  |
+| [*] Docente     : Ing. Ruben Rumipamba                             |
+| [*] Facultad    : Ingenieria Electrica y Electronica (FIEEC - EPN) |
+| [*] Entornos SO : Windows 11 Pro (PowerShell) / AlmaLinux 9 (Bash) |
++--------------------------------------------------------------------+
 
 ---
 
-## 🖥️ Resumen del Hardware Analizado
+## [>>] INDICE DE NAVEGACION POR SEMANAS
 
-### Entorno Windows
-* **Equipo:** DESKTOP-FIEECEC
-* **Sistema Operativo:** Microsoft Windows 11 Pro (64-bit)
-* **Procesador:** Intel(R) Core(TM) i7-11800H @ 2.30GHz (8 núcleos, 16 hilos)
-* **Memoria RAM:** 15.8 GB
-* **Almacenamiento:** Unidad SSD NVMe
+Haz clic en cualquiera de los modulos para ir directamente a los scripts,
+tablas de comandos y reportes de salida (.txt):
 
-### Entorno Linux (Máquina Virtual FIEEC / AlmaLinux)
-* **Equipo / Host:** fieecec-almalinux
-* **Sistema Operativo:** AlmaLinux 9.4 (Seafoam Ocelot) / Linux x86_64
-* **Cachés de CPU:** L1d (192 KiB), L1i (128 KiB), L2 (5 MiB), L3 (12 MiB)
-* **Memoria RAM:** 7.7 GiB asignados
+| Carpeta / Enlace | Tema Principal | Scripts Desarrollados | Estado |
+| :--- | :--- | :--- | :--- |
+| **[`./Semana1`](./Semana1)** | Arquitectura de Computadoras e Inventario de Hardware | `inventario.ps1` / `inventario.sh` | `[COMPLETADO]` |
+| **[`./Semana2`](./Semana2)** | Jerarquia de Memoria, Cache, Endianness y Datos | `memoria.ps1` / `memoria.sh` | `[COMPLETADO]` |
+| **[`./Semana3`](./Semana3)** | Administracion de Procesos, Módulos y Arranque del SO | `informe_arranque.ps1` / `informe_arranque.sh` | `[EN PROGRESO]` |
 
 ---
 
-## 🚀 ¿Cómo ejecutar estos scripts?
+## [>>] ARQUITECTURA DE CADA MODULO SEMANAL
 
-Si deseas probar los scripts en tu propio equipo, puedes hacerlo fácilmente:
+Cada carpeta semanal sigue un estandar riguroso de entrega:
 
-### En Windows (PowerShell)
-Abre tu consola de PowerShell y ejecuta:
-```powershell
-.\inventario.ps1
+```text
+portafolio-so-galan-vila-ez/
+├── README.md                  <-- Portada general del repositorio (este archivo)
+├── Semana1/
+│   ├── README.md              <-- Documentacion y prompts de la Semana 1
+│   ├── Comandos.md            <-- Ayuda memoria comparativa (Win vs Linux)
+│   ├── inventario.ps1         <-- Script PowerShell de recoleccion de hardware
+│   ├── inventario.sh          <-- Script Bash de recoleccion de hardware
+│   └── *.txt                  <-- Capturas reales de ejecucion en consola
+└── Semana2/
+    ├── README.md              <-- Documentacion y prompts de la Semana 2
+    ├── Comandos.md            <-- Ayuda memoria: Memoria, Cache y Hexadecimal
+    ├── memoria.ps1            <-- Script PowerShell de jerarquia de memoria
+    ├── memoria.sh             <-- Script Bash de cache L1d, RAM y localidad
+    └── *.txt                  <-- Capturas de salida de ambos sistemas
