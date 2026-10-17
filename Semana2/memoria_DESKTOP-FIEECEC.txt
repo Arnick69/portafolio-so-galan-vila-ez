@@ -1,1 +1,24 @@
+== Equipo: DESKTOP-FIEECEC 16/10/2026
+== Arquitectura: AMD64
+LittleEndian: True
 
+== Cachés (KB)
+
+Purpose                InstalledSize Associativity LineSize
+-------                ------------- ------------- --------
+L1 Data Cache                    384            12       64
+L1 Instruction Cache             256             8       64
+L2 Cache                       10240            10       64
+L3 Cache                       24576            12       64
+
+== RAM y Memoria Virtual (GB)
+
+TotalRAM_GB FreeRAM_GB TotalVirtual_GB FreeVirtual_GB
+----------- ---------- --------------- --------------
+      15.78       6.42           19.78          10.15
+
+== Discos Físicos
+
+FriendlyName        MediaType Size_GB
+------------        --------- -------
+NVMe WD_BLACK SN750 SSD        931.51
