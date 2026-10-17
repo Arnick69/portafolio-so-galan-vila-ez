@@ -1,25 +1,14 @@
+# ⚡ `SYS.MOD_02` // JERARQUÍA DE MEMORIA & CACHÉ
 
-# [ PORTAFOLIO DE SISTEMAS OPERATIVOS - SEMANA 02 ]
+![Module](https://img.shields.io/badge/MODULO-SEMANA_02-00F0FF?style=for-the-badge&labelColor=0D0221)
+![Arch](https://img.shields.io/badge/ARCH-x86__64_%7C_AMD64-FF0055?style=for-the-badge&labelColor=0D0221)
+![Endian](https://img.shields.io/badge/BYTE_ORDER-LITTLE_ENDIAN-00FF66?style=for-the-badge&labelColor=0D0221)
+![Status](https://img.shields.io/badge/BUILD-VERIFIED-FCEE09?style=for-the-badge&labelColor=0D0221)
 
---------------------------------------------------------------------
-Estudiantes : Nicolas Galan, Leonardo Vilanez
-Docente     : Ing. Ruben Rumipamba
-Institucion : Escuela Politecnica Nacional (EPN)
-Tema        : Jerarquia de Memoria, Cache y Representacion de Datos
---------------------------------------------------------------------
-
-## [+] Contenido de la carpeta (semana02)
-
-* [MD]  Comandos.md                  --> Tabla de comandos Windows (PowerShell) y Linux (Bash).
-* [PS1] memoria.ps1                  --> Script de recoleccion de memoria, caches y discos en Windows.
-* [SH]  memoria.sh                   --> Script de recoleccion de memoria, caches y discos en Linux.
-* [TXT] memoria_DESKTOP-FIEECEC.txt  --> Salida en texto generada por el script en Windows.
-* [TXT] memoria_fieecec-almalinux.txt--> Salida en texto generada por el script en Linux.
-
----
-
-## [+] Ejecucion de los scripts
-
-### En Windows (PowerShell):
-```powershell
-.\memoria.ps1
+```text
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  [SYSTEM_BOOT] : CARGANDO INSPECTOR DE JERARQUIA DE MEMORIA v2.0...          ║
+║  [ OPERADORES ] : NICOLAS GALAN // LEONARDO VILANEZ                          ║
+║  [ SUPERVISOR ] : ING. RUBEN RUMIPAMBA, PH.D.  |  EPN - FIEEC                ║
+║  [ OBJETIVO   ] : ANALISIS DE CACHE (L1/L2/L3), RAM, SWAP, DISCOS Y DATOS    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
