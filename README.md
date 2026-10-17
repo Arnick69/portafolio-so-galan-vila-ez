@@ -1,52 +1,39 @@
-# ====================================================================
-#    PORTAFOLIO DE SISTEMAS OPERATIVOS | EPN - FIEEC (2026)
-# ====================================================================
+# ⚡ Portafolio de Sistemas Operativos | EPN 🦉
 
-Bienvenido al repositorio oficial de practicas, scripts de administracion y
-documentacion tecnica de la asignatura de Sistemas Operativos. Aqui
-encontraras la comparativa practica entre entornos Windows (PowerShell) y
-GNU/Linux (Bash / AlmaLinux) desarrollada semana a semana.
+![EPN](https://img.shields.io/badge/Instituci%C3%B3n-EPN%20FIEEC-00E5FF?style=for-the-badge&logo=academia&logoColor=black)
+![Windows](https://img.shields.io/badge/Entorno-Windows_11_Pro-FF007F?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Entorno-AlmaLinux_9.4-39FF14?style=for-the-badge&logo=linux&logoColor=black)
 
-+--------------------------------------------------------------------+
-| FICHA TECNICA DEL PROYECTO                                         |
-+--------------------------------------------------------------------+
-| [*] Integrantes : Nicolas Galan, Leonardo Vilanez                  |
-| [*] Docente     : Ing. Ruben Rumipamba                             |
-| [*] Facultad    : Ingenieria Electrica y Electronica (FIEEC - EPN) |
-| [*] Entornos SO : Windows 11 Pro (PowerShell) / AlmaLinux 9 (Bash) |
-+--------------------------------------------------------------------+
+¡Bienvenidos al repositorio oficial de prácticas, scripts de automatización y arquitectura de sistemas! Aquí documentamos semana a semana la comparativa técnica entre entornos **Windows (PowerShell)** y **GNU/Linux (Bash)**.
 
 ---
 
-## [>>] INDICE DE NAVEGACION POR SEMANAS
+## ✨ Ficha del Equipo
 
-Haz clic en cualquiera de los modulos para ir directamente a los scripts,
-tablas de comandos y reportes de salida (.txt):
+* **👨‍💻 Desarrolladores:** Nicolás Galán & Leonardo Vilañez
+* **👨‍🏫 Docente:** Ing. Rubén Rumipamba, Ph.D.
+* **🏛️ Facultad:** Ingeniería Eléctrica y Electrónica (FIEEC - EPN)
+* **💻 Hardware Base:** Intel Core i7-11800H | 16 GB RAM | NVMe SSD
 
-| Carpeta / Enlace | Tema Principal | Scripts Desarrollados | Estado |
+---
+
+## 🧭 Mapa de Navegación por Semanas
+
+| Módulo | Tema Central | Scripts Principales | Estado |
 | :--- | :--- | :--- | :--- |
-| **[`./Semana1`](./Semana1)** | Arquitectura de Computadoras e Inventario de Hardware | `inventario.ps1` / `inventario.sh` | `[COMPLETADO]` |
-| **[`./Semana2`](./Semana2)** | Jerarquia de Memoria, Cache, Endianness y Datos | `memoria.ps1` / `memoria.sh` | `[COMPLETADO]` |
-| **[`./Semana3`](./Semana3)** | Administracion de Procesos, Módulos y Arranque del SO | `informe_arranque.ps1` / `informe_arranque.sh` | `[EN PROGRESO]` |
+| 📂 **[`./Semana1`](./Semana1)** | Arquitectura de Computadoras e Inventario de Hardware | `inventario.ps1` / `inventario.sh` | 🟢 **Completado** |
+| 📂 **[`./Semana2`](./Semana2)** | Jerarquía de Memoria, Caché, Endianness y Datos | `memoria.ps1` / `memoria.sh` | 🟢 **Completado** |
+| 📂 **[`./Semana3`](./Semana3)** | Administración del SO, Módulos y Secuencia de Arranque | `informe_arranque.ps1` / `informe_arranque.sh` | 🟣 **En Curso** |
 
 ---
 
-## [>>] ARQUITECTURA DE CADA MODULO SEMANAL
+## ⚖️ Declaración de Uso Ético de IA y Registro de Prompts (Global)
 
-Cada carpeta semanal sigue un estandar riguroso de entrega:
+En cumplimiento con la política de transparencia académica de la asignatura, declaramos el uso de Inteligencia Artificial (Gemini) como asistente de consulta sintáctica, resolución de conflictos en Git y diseño de plantillas Markdown. Todo el código ha sido ejecutado, validado y auditado por ambos integrantes del equipo.
 
-```text
-portafolio-so-galan-vila-ez/
-├── README.md                  <-- Portada general del repositorio (este archivo)
-├── Semana1/
-│   ├── README.md              <-- Documentacion y prompts de la Semana 1
-│   ├── Comandos.md            <-- Ayuda memoria comparativa (Win vs Linux)
-│   ├── inventario.ps1         <-- Script PowerShell de recoleccion de hardware
-│   ├── inventario.sh          <-- Script Bash de recoleccion de hardware
-│   └── *.txt                  <-- Capturas reales de ejecucion en consola
-└── Semana2/
-    ├── README.md              <-- Documentacion y prompts de la Semana 2
-    ├── Comandos.md            <-- Ayuda memoria: Memoria, Cache y Hexadecimal
-    ├── memoria.ps1            <-- Script PowerShell de jerarquia de memoria
-    ├── memoria.sh             <-- Script Bash de cache L1d, RAM y localidad
-    └── *.txt                  <-- Capturas de salida de ambos sistemas
+* **💬 Prompt 1 (Flujo de trabajo en Git):**
+  > *"Necesito crear un repositorio con los comandos que vea en todo el semestre en GitHub y sincronizar la rama main desde la terminal."*
+* **💬 Prompt 2 (Estandarización de tablas):**
+  > *"Necesito una tabla comparativa con el comando, su traducción en Windows (PowerShell) y Linux (Bash) y qué hace cada comando según las diapositivas de clase."*
+* **💬 Prompt 3 (Diseño y auditoría ética):**
+  > *"Mejora la presentación de la portada y añade una sección donde documentemos los prompts utilizados para aplicar el uso ético de la IA."*
