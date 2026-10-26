@@ -1,1 +1,42 @@
+==================================================================
+          INFORME DE ARRANQUE DEL SISTEMA (GNU/LINUX)             
+==================================================================
+Equipo  : localhost
+Fecha   : 2026-10-19 11:55:10
+Autores : Nicolás Galán, Leonardo Vilañez (GR1)
+==================================================================
 
+=== 1 · Sistema operativo, versión y núcleo ===
+Sistema: AlmaLinux 10.2 (Purple Lion)
+Núcleo : 6.12.0-211.7.1.el10_2.x86_64 (x86_64)
+
+=== 2 · Último arranque y tiempo encendido ===
+Arrancó  : 2026-10-19 11:09:15
+Encendida: up 45 minutes
+
+=== 3 · Desglose del arranque (systemd-analyze) ===
+Startup finished in 2.908s (kernel) + 9.254s (initrd) + 19.172s (userspace) = 31.335s 
+graphical.target reached after 19.150s in userspace.
+
+=== 4 · Cinco unidades más lentas (blame) ===
+12.038s plymouth-quit-wait.service
+ 5.412s NetworkManager-wait-online.service
+ 3.180s dracut-initqueue.service
+ 1.945s firewalld.service
+ 1.120s systemd-udev-settle.service
+
+=== 5 · Módulos del núcleo (lsmod) ===
+Total de módulos cargados: 94
+Cinco módulos más grandes (Nombre | Tamaño en bytes | Usado por):
+  - xfs                      2195456 bytes (usado por: 2)
+  - nft_compat               1146880 bytes (usado por: 4)
+  - drm                       765952 bytes (usado por: 5)
+  - sunrpc                    684032 bytes (usado por: 1)
+  - ip_tables                 360448 bytes (usado por: 3)
+
+=== 6 · Cierre: Target por defecto y unidades fallidas ===
+Target por defecto: graphical.target
+Unidades con fallo (systemctl --failed):
+  0 unidades fallidas (sistema limpio).
+
+=== Fin del informe ===
