@@ -1,0 +1,47 @@
+==================================================================
+          INFORME DE ARRANQUE DEL SISTEMA (WINDOWS)               
+==================================================================
+Equipo  : DESKTOP-FIEECEC
+Fecha   : 2026-10-19 11:58:30
+Autores : Nicolás Galán, Leonardo Vilañez (GR1)
+==================================================================
+
+=== 1 · Sistema operativo, versión y núcleo ===
+Sistema     : Microsoft Windows 11 Pro
+Versión     : 10.0.22631 (Build 22631)
+Arquitectura: 64-bit
+
+=== 2 · Último arranque y tiempo encendido ===
+Arrancó  : 2026-10-19 11:09:07
+Encendida: 0 días, 0 horas, 49 minutos
+
+=== 3 · Desglose del arranque ===
+Firmware (FwPOSTTime): 7400 ms (7.4 s)
+Evento 100 (Fecha: 10/19/2026 11:09:55):
+  - BootTime: 41532 ms (41.532 s)
+  - MainPathBootTime: 15210 ms (15.21 s)
+  - BootPostBootTime: 26322 ms (26.322 s)
+
+=== 4 · Servicios del sistema (Win32_Service) ===
+Servicios en ejecución         : 111
+Servicios automáticos detenidos: 4
+Primeros 5 servicios automáticos detenidos:
+  - edgeupdate (Microsoft Edge Update Service (edgeupdate)) [Estado: Stopped]
+  - gupdate (Servicios de Google Update (gupdate)) [Estado: Stopped]
+  - sppsvc (Protección de software) [Estado: Stopped]
+  - MapsBroker (Administrador de mapas descargados) [Estado: Stopped]
+
+=== 5 · Controladores del sistema (driverquery y Win32_SystemDriver) ===
+Total de controladores registrados : 342
+Controladores en ejecución (Running): 196
+Primeros 5 controladores en ejecución:
+  - ACPI | Tipo: Kernel Driver | Estado: Running
+  - AFD | Tipo: Kernel Driver | Estado: Running
+  - Disk | Tipo: Kernel Driver | Estado: Running
+  - Ntfs | Tipo: File System Driver | Estado: Running
+  - Tcpip | Tipo: Kernel Driver | Estado: Running
+
+=== 6 · Cierre: Estado del Inicio Rápido ===
+HiberbootEnabled: 1 (Activado - Apagar hiberna el núcleo)
+
+=== Fin del informe ===
