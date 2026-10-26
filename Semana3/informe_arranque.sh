@@ -15,7 +15,6 @@ EQUIPO=$(hostname -s 2>/dev/null || hostname 2>/dev/null || echo "localhost")
 FECHA=$(date +%F)
 SALIDA="informe_arranque_${EQUIPO}_${FECHA}.txt"
 
-# Función de apoyo para comprobar si un comando existe
 tiene() {
     command -v "$1" >/dev/null 2>&1
 }
