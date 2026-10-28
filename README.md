@@ -1,38 +1,56 @@
-# ⚡ Portafolio de Sistemas Operativos | EPN 🦉
+# ⚡ Portafolio de Sistemas Operativos
 
-¡Bienvenidos al repositorio oficial de prácticas, scripts de automatización y arquitectura de sistemas! Aquí documentamos semana a semana la comparativa técnica entre entornos **Windows (PowerShell)** y **GNU/Linux (Bash)** para la materia de Sistemas Operativos.
+![Institución](https://img.shields.io/badge/EPN-FIEEC-00F0FF?style=for-the-badge)
+![Windows](https://img.shields.io/badge/Windows_11_Pro-PowerShell-FF0055?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/AlmaLinux_9.4-Bash-00FF66?style=for-the-badge&logo=linux&logoColor=black)
+![Estado](https://img.shields.io/badge/Portafolio-Activo-FCEE09?style=for-the-badge)
 
----
+> **Análisis de arquitectura, administración de recursos y comparativa técnica Windows vs. GNU/Linux**
 
-## ✨ Ficha del Equipo
-
-* **👨‍🎓 Estudiantes:** Nicolás Galán & Leonardo Vilañez
-* **👨‍🏫 Docente:** Ing. Rubén Rumipamba, Ph.D.
-* **🏫 Institución:** Escuela Politécnica Nacional (EPN - FIEEC)
-* **💻 Entornos Base:** Windows 11 Pro (64-bit) / AlmaLinux 9.4 (x86_64)
-
----
-
-## 🧭 Mapa de Navegación por Semanas
-
-| Módulo | Tema Central | Scripts Principales | Estado |
-| :--- | :--- | :--- | :--- |
-| 📂 **[`./Semana1`](./Semana1)** | Arquitectura de Computadoras e Inventario de Hardware | `inventario.ps1` / `inventario.sh` | 🟢 **Completado** |
-| 📂 **[`./Semana2`](./Semana2)** | Jerarquía de Memoria, Caché, Endianness y Datos | `memoria.ps1` / `memoria.sh` | 🟢 **Completado** |
-| 📂 **[`./Semana3`](./Semana3)** | Departamentos del SO, Multiprogramación y Arranque | `informe_arranque.ps1` / `informe_arranque.sh` | 🟢 **Completado** |
-| 📂 **[`./Semana4`](./Semana4)** | Planificación de CPU, Hilos y Gestión de Procesos | Scripts en desarrollo | 🟡 **En Curso** |
+| | |
+|---|---|
+| **Estudiantes** | Nicolas Galán · Leonardo Vilanez |
+| **Docente** | Ing. Rubén Rumipamba, Ph.D. |
+| **Institución** | EPN · FIEEC |
 
 ---
 
-## ⚖️ Declaración de Uso Ético de IA y Registro de Prompts
+## 📖 Descripción
 
-En cumplimiento con la política de transparencia académica de la asignatura, declaramos el uso de Inteligencia Artificial como asistente de consulta sintáctica, resolución de conflictos en Git y diseño de plantillas Markdown. Todo el código ha sido ejecutado, validado y auditado por ambos integrantes del equipo.
+Repositorio oficial de prácticas, scripts de automatización y documentación técnica de la asignatura **Sistemas Operativos**. Cada módulo semanal integra el estudio teórico-práctico del hardware y del núcleo del sistema operativo mediante herramientas nativas en **PowerShell** (Windows) y **Bash** (GNU/Linux).
 
-* **💬 Prompt 1 (Flujo de trabajo en Git):**
-  > *"Necesito crear un repositorio con los comandos que vea en todo el semestre en GitHub y sincronizar la rama main desde la terminal."*
-* **💬 Prompt 2 (Estandarización de tablas comparativas):**
-  > *"Necesito una tabla comparativa con el comando, su traducción en Windows (PowerShell) y Linux (Bash) y qué hace cada comando según las diapositivas de clase."*
-* **💬 Prompt 3 (Estructuración de scripts de auditoría):**
-  > *"Ayúdame a estructurar los scripts de inventario e informes de arranque para que funcionen sin privilegios de administrador, mostrando avisos claros."*
-* **💬 Prompt 3 (Estructuración de scripts de auditoría):**
-  > *"Ayúdame a estructurar los scripts de inventario e informes de arranque para que funcionen sin privilegios de administrador, mostrando avisos claros."*[cite: 4]
+## 📂 Contenido del repositorio por semanas
+
+| Semana | Tema central | Scripts principales | Estado |
+|---|---|---|---|
+| 📂 **[`./Semana1`](./Semana1)** | Arquitectura de Computadoras e Inventario de Hardware | `inventario.ps1` · `inventario.sh` | 🟢 **Completado** |
+| 📂 **[`./Semana2`](./Semana2)** | Jerarquía de Memoria, Caché y Representación de Datos | `memoria.ps1` · `memoria.sh` | 🟢 **Completado** |
+| 📂 **[`./Semana3`](./Semana3)** | Departamentos del SO, Multiprogramación y Arranque | `informe_arranque.ps1` · `informe_arranque.sh` | 🟢 **Completado** |
+| 📂 **[`./Semana4`](./Semana4)** | Procesos, Hilos y Planificación de CPU | *En desarrollo* | 🟡 **En curso** |
+
+## 🖥️ Entornos de prueba
+
+| Parámetro | Entorno Windows | Entorno GNU/Linux |
+|---|---|---|
+| **Nombre de nodo** | `DESKTOP-FIEECEC` | `fieecec-almalinux` |
+| **Sistema Operativo** | Windows 11 Pro (64-bit) | AlmaLinux 9.4 (Seafoam Ocelot) |
+| **Arquitectura** | `x86_64` / `AMD64` (*Little Endian*) | `x86_64` (*Little Endian*) |
+| **Procesador** | Intel Core i7-11800H @ 2.30 GHz (8C / 16T) | Intel Core i7-11800H (Cachés L1d/L1i/L2/L3) |
+| **Memoria RAM** | 15.8 GB físicos | 7.7 GiB asignados |
+
+## 🤝 Uso ético de IA y registro de prompts
+
+En cumplimiento con la política de transparencia académica, dejamos constancia del uso de Inteligencia Artificial como apoyo consultivo para la sintaxis de comandos, resolución de dudas en Git y diseño de plantillas en Markdown. Todo el código fue ejecutado, probado y verificado por el equipo.
+
+- **Prompt 1 (Flujo de trabajo en Git):** *"Necesito inicializar un repositorio con los comandos del semestre en GitHub y sincronizar la rama main desde la terminal."*
+- **Prompt 2 (Tablas comparativas):** *"Necesito una tabla comparativa con la funcionalidad, el comando en PowerShell, su equivalente en Bash y qué hace cada comando según la guía de clase."*
+- **Prompt 3 (Estandarización de documentación):** *"Diseña el README de cada semana con tablas de variables, fórmulas matemáticas en LaTeX y ejemplos aplicados del laboratorio."*
+
+## 👥 Autores
+
+- **Nicolas Galán**
+- **Leonardo Vilanez**
+
+---
+
+<sub>Escuela Politécnica Nacional · Facultad de Ingeniería Eléctrica y Electrónica (FIEEC)</sub>
