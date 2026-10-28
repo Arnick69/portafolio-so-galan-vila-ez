@@ -1,6 +1,6 @@
-# <p align="center">
-  <img src="images/epn-escudo.jpg" width="120" alt="Escudo EPN" />
-</p>⚡ Portafolio de Sistemas Operativos
+# ⚡ Portafolio de Sistemas Operativos                    <p align="center">
+  <img src="logo-epn-vertical.png" width="120" alt="Escudo EPN" />
+</p>
 
 ![Institución](https://img.shields.io/badge/EPN-FIEEC-00F0FF?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows_11_Pro-PowerShell-FF0055?style=for-the-badge&logo=windows&logoColor=white)
