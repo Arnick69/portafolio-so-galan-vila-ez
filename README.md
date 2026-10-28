@@ -1,5 +1,5 @@
-# <p align="center">
-  <img src="logo-epn-vertical.png" width="120"  />
+<p align="center">
+  <img src="images/logo-epn-vertical.png" width="120" alt="Escudo EPN" />
 </p>
 ⚡ Portafolio de Sistemas Operativos                    
 
