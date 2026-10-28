@@ -2,8 +2,6 @@
 ⚡ Portafolio de Sistemas Operativos  <p align="right">
   <img src="images/logo.png" width="150" alt="Escudo EPN" />
 </p>
-                  
-
 ![Institución](https://img.shields.io/badge/EPN-FIEEC-00F0FF?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows_11_Pro-PowerShell-FF0055?style=for-the-badge&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/AlmaLinux_9.4-Bash-00FF66?style=for-the-badge&logo=linux&logoColor=black)
