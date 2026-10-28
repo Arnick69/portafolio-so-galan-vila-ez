@@ -9,7 +9,7 @@
 
 | | |
 |---|---|
-| **Estudiantes** | Nicolas Galán · Leonardo Vilanez |
+| **Estudiantes** | Nicolas Galán · Leonardo Vilañez |
 | **Docente** | Ing. Rubén Rumipamba, Ph.D. |
 | **Institución** | EPN · FIEEC |
 
@@ -49,7 +49,7 @@ En cumplimiento con la política de transparencia académica, dejamos constancia
 ## 👥 Autores
 
 - **Nicolas Galán**
-- **Leonardo Vilanez**
+- **Leonardo Vilañez**
 
 ---
 
