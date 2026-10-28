@@ -1,5 +1,5 @@
 # <p align="center">
-  <img src="images/polilogo.png" width="120" alt="Escudo EPN" />
+  <img src="images/epn-escudo.png" width="120" alt="Escudo EPN" />
 </p>⚡ Portafolio de Sistemas Operativos
 
 ![Institución](https://img.shields.io/badge/EPN-FIEEC-00F0FF?style=for-the-badge)
