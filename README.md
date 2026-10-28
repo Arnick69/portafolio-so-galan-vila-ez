@@ -1,7 +1,7 @@
 # ⚡ Portafolio de Sistemas Operativos
 
 <p align="right">
-  <img src="images/logo-epn-vertical.png" width="150" alt="Escudo EPN" />
+  <img src="images/logo.png" width="150" alt="Escudo EPN" />
 </p>
 
 ![Institución](https://img.shields.io/badge/EPN-FIEEC-00F0FF?style=for-the-badge)
