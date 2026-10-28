@@ -1,4 +1,4 @@
-#⚡ Portafolio de Sistemas Operativos <p align="right">
+#⚡ Portafolio de Sistemas Operativos <p align="center">
   <img src="images/logo.png" width="150" alt="Escudo EPN" />
 </p>
 
