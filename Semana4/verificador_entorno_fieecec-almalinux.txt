@@ -1,1 +1,65 @@
+======================================================================
+         VERIFICADOR DE ENTORNO DE SISTEMAS OPERATIVOS (LINUX)        
+======================================================================
+Fecha de ejecución : 2026-11-13 15:42:10
+Equipo             : fieecec-almalinux
+Usuario            : estudiante
 
+--- [1] SISTEMA Y SHELL ---
+Distribución       : AlmaLinux 10.2 (Purple Lion)
+Kernel             : Linux 6.12.0-55.9.1.el10_0.x86_64
+Arquitectura       : x86_64
+Versión de Bash    : 5.2.26(1)-release
+Terminal actual    : /dev/pts/0
+
+--- [2] HERRAMIENTAS REQUERIDAS ---
+Herramienta  | Estado   | Ruta                   | Versión
+----------------------------------------------------------------------
+git          | OK       | /usr/bin/git           | git version 2.45.2
+curl         | OK       | /usr/bin/curl          | curl 8.9.1 (x86_64-redhat-linux-gnu
+python3      | OK       | /usr/bin/python3       | Python 3.12.6
+jq           | OK       | /usr/bin/jq            | jq-1.7.1
+strace       | OK       | /usr/bin/strace        | strace -- version 6.10
+tree         | OK       | /usr/bin/tree          | tree v2.1.1 (c) 1996 - 2023 by Stev
+
+--- [3] PAQUETES Y ORÍGENES ---
+Total paquetes RPM instalados : 1248
+
+Paquete propietario de cada herramienta instalada:
+  - git        -> git-core-2.45.2-2.el10.x86_64
+  - curl       -> curl-8.9.1-3.el10.x86_64
+  - python3    -> python3-3.12.6-1.el10.x86_64
+  - jq         -> jq-1.7.1-4.el10.x86_64
+  - strace     -> strace-6.10-1.el10.x86_64
+  - tree       -> tree-2.1.1-2.el10.x86_64
+
+Repositorios activos (dnf repolist):
+  id del repositorio             nombre del repositorio
+  appstream                      AlmaLinux 10 - AppStream
+  baseos                         AlmaLinux 10 - BaseOS
+  extras                         AlmaLinux 10 - Extras
+
+--- [4] ÚLTIMAS 5 INSTALACIONES ---
+Historial reciente de transacciones (dnf history):
+  ID     | Línea de comandos                | Fecha y hora     | Acción(es) | Alterados
+  -------------------------------------------------------------------------------------
+       6 | install jq                       | 2026-11-13 15:25 | Install    |    2
+       5 | install -y strace tree gcc       | 2026-11-13 14:52 | Install    |   14
+       4 | install -y curl git python3      | 2026-11-06 09:15 | Install    |    8
+       3 | update -y                        | 2026-10-30 10:04 | Upgrade    |   42
+       2 | groupinstall Minimal Install     | 2026-10-23 08:30 | Install    |  312
+
+Últimos 5 paquetes instalados según base RPM:
+  jq-1.7.1-4.el10.x86_64                        vie 13 nov 2026 15:25:14 -05
+  oniguruma-6.9.9-3.el10.x86_64                 vie 13 nov 2026 15:25:13 -05
+  tree-2.1.1-2.el10.x86_64                      vie 13 nov 2026 14:52:40 -05
+  strace-6.10-1.el10.x86_64                     vie 13 nov 2026 14:52:39 -05
+  gcc-14.2.1-3.el10.x86_64                      vie 13 nov 2026 14:52:35 -05
+
+--- [5] QUÉ FALTA Y CÓMO INSTALARLO ---
+Todas las herramientas requeridas están instaladas correctamente.
+
+--- [6] RESULTADO ---
+Herramientas listas: 6 de 6
+Informe guardado en: verificador_entorno_fieecec-almalinux.txt
+Estado final       : COMPLETO (Código de salida: 0)
