@@ -26,8 +26,8 @@ En esta semana estudiamos cómo los programas en modo usuario solicitan servicio
 | `Comandos.md` | Markdown | Tabla comparativa de comandos en **PowerShell** (Windows) y **Bash** (Linux) para rastreo de llamadas (`strace`), tuberías, redirecciones y gestores de paquetes (`dnf` / `winget`). |
 | `verificador_entorno.ps1` | PowerShell | Script de 6 secciones que audita el sistema, versión de PowerShell, herramientas instaladas, orígenes de paquetes (`winget`), últimas 5 instalaciones y dependencias faltantes. |
 | `verificador_entorno.sh` | Bash | Script de 6 secciones que audita el SO (`/etc/os-release`), versión de Bash, herramientas con `command -v`, repositorios (`dnf repolist`), historial (`dnf history`) y código de salida (`exit 0` / `exit 1`). |
-| `verificador_entorno_DESKTOP-FIEECEC.txt` | Texto | Captura de resultados obtenidos en el entorno **Windows**. |
-| `verificador_entorno_fieecec-almalinux.txt` | Texto | Captura de resultados obtenidos en el entorno **AlmaLinux**. |
+| `verificador_entorno_Windows` | Texto | Captura de resultados obtenidos en el entorno **Windows**. |
+| `verificador_entorno_linux.txt` | Texto | Captura de resultados obtenidos en el entorno **AlmaLinux**. |
 
 ## 🚀 Cómo ejecutar
 
