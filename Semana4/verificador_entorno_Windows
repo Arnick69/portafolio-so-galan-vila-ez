@@ -1,1 +1,44 @@
+======================================================================
+        VERIFICADOR DE ENTORNO DE SISTEMAS OPERATIVOS (WINDOWS)       
+======================================================================
+Fecha de ejecución : 2026-11-13 15:50:22
+Equipo             : DESKTOP-FIEECEC
+Usuario            : LabFIEEC
 
+--- [1] SISTEMA Y SHELL ---
+Sistema Operativo  : Microsoft Windows 11 Pro (64 bits)
+Versión del Núcleo : 10.0.22631 (Build 22631)
+Edición PowerShell : Desktop v5.1.22621.4391
+
+--- [2] HERRAMIENTAS REQUERIDAS ---
+Herramienta  | Estado   | Ruta                             | Versión
+----------------------------------------------------------------------
+git          | OK       | ...Program Files\Git\cmd\git.exe | git version 2.47.0.windows.2
+curl.exe     | OK       | C:\Windows\System32\curl.exe     | curl 8.9.1 (Windows) libcurl
+python       | OK       | ...\Python\Python312\python.exe  | Python 3.12.7
+jq           | OK       | ...\Microsoft\WinGet\Links\jq... | jq-1.8.1
+winget       | OK       | ...\WindowsApps\winget.exe       | v1.9.25200
+
+--- [3] PAQUETES Y ORÍGENES ---
+Programas registrados en Windows (Uninstall) : 84
+
+Orígenes configurados en winget (winget source list):
+  Nombre  Argumento
+  -----------------------------------------------------
+  msstore https://storeedgefd.dsx.mp.microsoft.com/v9.0
+  winget  https://cdn.winget.microsoft.com/cache
+
+--- [4] ÚLTIMAS 5 INSTALACIONES ---
+  - 20261113 | Nombre: jq (v1.8.1) | Publicador: jqlang
+  - 20261110 | Nombre: Git (v2.47.0.2) | Publicador: The Git Development Community
+  - 20261105 | Nombre: Python 3.12.7 (64-bit) (v3.12.7150.0) | Publicador: Python Software Foundation
+  - 20261028 | Nombre: Microsoft Visual C++ 2015-2022 Redistributable (x64) (v14.40.33810.0) | Publicador: Microsoft Corporation
+  - 20261021 | Nombre: Oracle VM VirtualBox 7.1.4 (v7.1.4) | Publicador: Oracle Corporation
+
+--- [5] QUÉ FALTA Y CÓMO INSTALARLO ---
+Todas las herramientas requeridas están instaladas correctamente.
+
+--- [6] RESULTADO ---
+Herramientas listas: 5 de 5
+Informe guardado en: verificador_entorno_DESKTOP-FIEECEC.txt
+Estado final       : COMPLETO (Código de salida: 0)
