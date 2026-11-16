@@ -1,19 +1,15 @@
 # Semana 5: Auditoría de Seguridad del Equipo
 
-Esta carpeta contiene los scripts y evidencias de las actividades de la Semana 5 de Sistemas Operativos, correspondientes al **Deber 5**. Los temas principales cubren mecanismos de seguridad: puertos, cortafuegos (firewalld / Windows Defender), autenticación, autorización (sudo / UAC) y auditoría (logs y Visor de Eventos).
+Esta carpeta contiene los scripts y evidencias del Deber 5 de Sistemas Operativos. Los temas aplicados cubren mecanismos de seguridad: revisión de puertos, cortafuegos, autenticación, autorización de privilegios y análisis de bitácoras.
 
-## Contenido de la carpeta
+## Estructura de la Semana
+1. `Comandos.md`: Tabla comparativa de comandos de auditoría entre Windows PowerShell y Linux Bash.
+2. `auditoria_seguridad.ps1`: Script de revisión de seguridad en Windows.
+3. `auditoria_seguridad.sh`: Script de revisión de seguridad en Linux.
+4. `salida_windows.txt`: Evidencia de ejecución del script en Windows.
+5. `salida_linux.txt`: Evidencia de ejecución del script en Linux.
 
-* `ayuda_memoria.md`: Resumen de los comandos de Linux y PowerShell utilizados durante la semana para revisar seguridad y accesos.
-* `auditoria_seguridad.sh`: Script en Bash que automatiza la revisión de seguridad en AlmaLinux (UID 0, puertos abiertos, estado del cortafuegos, intentos fallidos por SSH).
-* `auditoria_seguridad.ps1`: Script en PowerShell que realiza la misma auditoría en Windows (Grupo de Administradores, puertos en escucha, estado de los perfiles del firewall, intentos fallidos de inicio de sesión).
-* `salida_linux.txt`: Captura de la ejecución del script `.sh`.
-* `salida_windows.txt`: Captura de la ejecución del script `.ps1`.
-
-## Ejecución de los scripts
-
-**Para Linux (AlmaLinux):**
-Asignar permisos de ejecución y correr el script:
-```bash
-chmod +x auditoria_seguridad.sh
-./auditoria_seguridad.sh
+## Declaración de Uso Ético de IA
+Para la estructuración de esta carpeta se empleó asistencia de Inteligencia Artificial (Gemini).
+* **Prompt utilizado:** "Revisa a fondo y corrige la estructura de la semana 5 para que todo esté acorde."
+* **Uso dado:** Corrección del formato Markdown, estandarización de la tabla comparativa y generación de la plantilla de documentación siguiendo las reglas del portafolio académico. No se generó código de lógica de negocio o análisis sin revisión previa.
