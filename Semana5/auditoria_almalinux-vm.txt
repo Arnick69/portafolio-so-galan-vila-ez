@@ -1,1 +1,49 @@
+==================================================================
+ REPORTE DE AUDITORIA DE SEGURIDAD - LINUX (BASH)
+ Equipo: almalinux-vm | Fecha: 2026-11-16 11:30:14
+==================================================================
 
+------------------------------------------------------------------
+[SECCION 1] LLAVERO MAESTRO (UID 0 Y GRUPO WHEEL)
+------------------------------------------------------------------
+Cuentas con UID 0 en /etc/passwd : root
+Miembros del grupo wheel         : vilanez
+-> Seccion 1: OK
+
+------------------------------------------------------------------
+[SECCION 2] PUERTAS ABIERTAS (PUERTOS TCP EN ESCUCHA)
+------------------------------------------------------------------
+  LISTEN   0.0.0.0:22               
+  LISTEN   127.0.0.1:631            
+  LISTEN   [::]:22                  
+  LISTEN   *:9090                   
+-> Seccion 2: OK
+
+------------------------------------------------------------------
+[SECCION 3] PORTERO ACTIVO (ESTADO DE FIREWALLD)
+------------------------------------------------------------------
+Estado del servicio firewalld: active
+-> Seccion 3: OK
+
+------------------------------------------------------------------
+[SECCION 4] INTENTOS FALLIDOS POR SSH (UMBRAL: 5)
+------------------------------------------------------------------
+Fuente analizada: Archivo de muestra (../muestras_auth.log)
+Conteo de fallos por IP:
+     8 fallos -> 45.83.1.20
+     4 fallos -> 91.200.5.4
+     3 fallos -> 10.0.0.7
+Detalle: IP(s) que alcanzan o superan el umbral (5):
+  - 45.83.1.20 (8 fallos)
+-> Seccion 4: ALERTA
+
+==================================================================
+[SECCION 5] VEREDICTO CONSOLIDADO DE AUDITORIA
+==================================================================
+  1. Llavero maestro   : OK
+  2. Puertas abiertas  : OK
+  3. Portero activo    : OK
+  4. Intentos fallidos : ALERTA
+------------------------------------------------------------------
+VEREDICTO FINAL: ALERTA (Se requiere revision de seguridad)
+==================================================================
