@@ -1,6 +1,4 @@
-#⚡ Portafolio de Sistemas Operativos <p align="center">
-  <img src="images/logo.png" width="150" alt="Escudo EPN" />
-</p>
+# ⚡ Portafolio de Sistemas Operativos
 
 ![Institución](https://img.shields.io/badge/EPN-FIEEC-00F0FF?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows_11_Pro-PowerShell-FF0055?style=for-the-badge&logo=windows&logoColor=white)
@@ -11,7 +9,7 @@
 
 | | |
 |---|---|
-| **Estudiantes** | Nicolas Galán · Leonardo Vilañez |
+| **Estudiantes** | Nicolas Galán · Leonardo Vilanez |
 | **Docente** | Ing. Rubén Rumipamba, Ph.D. |
 | **Institución** | EPN · FIEEC |
 
@@ -29,6 +27,9 @@ Repositorio oficial de prácticas, scripts de automatización y documentación t
 | 📂 **[`./Semana2`](./Semana2)** | Jerarquía de Memoria, Caché y Representación de Datos | `memoria.ps1` · `memoria.sh` | 🟢 **Completado** |
 | 📂 **[`./Semana3`](./Semana3)** | Departamentos del SO, Multiprogramación y Arranque | `informe_arranque.ps1` · `informe_arranque.sh` | 🟢 **Completado** |
 | 📂 **[`./Semana4`](./Semana4)** | Procesos, Hilos y Planificación de CPU | *En desarrollo* | 🟡 **En curso** |
+| 📂 **[`./Semana5`](./Semana5)** | Mecanismos de Seguridad, Identidad, Privilegios y Bitácoras | `auditoria_seguridad.ps1` · `auditoria_seguridad.sh` | 🟢 **Completado** |
+| 📂 **[`./Semana6`](./Semana6)** | Gestión de Archivos, Sistemas de Ficheros y E/S | *Módulo programado* | ⚪ **Pendiente** |
+| 📂 **[`./Semana7`](./Semana7)** | Virtualización, Contenedores y Seguridad Avanzada | *Módulo programado* | ⚪ **Pendiente** |
 
 ## 🖥️ Entornos de prueba
 
@@ -46,12 +47,12 @@ En cumplimiento con la política de transparencia académica, dejamos constancia
 
 - **Prompt 1 (Flujo de trabajo en Git):** *"Necesito inicializar un repositorio con los comandos del semestre en GitHub y sincronizar la rama main desde la terminal."*
 - **Prompt 2 (Tablas comparativas):** *"Necesito una tabla comparativa con la funcionalidad, el comando en PowerShell, su equivalente en Bash y qué hace cada comando según la guía de clase."*
-- **Prompt 3 (Estandarización de documentación):** *"Diseña el README de cada semana con tablas de variables, fórmulas matemáticas en LaTeX y ejemplos aplicados del laboratorio."*
+- **Prompt 3 (Automatización de auditorías de seguridad):** *"Ayúdame a estructurar las funciones de auditoría del Deber 5 en Bash y PowerShell sin requerir privilegios elevados, soportando lectura de bitácoras de muestra."*
 
 ## 👥 Autores
 
 - **Nicolas Galán**
-- **Leonardo Vilañez**
+- **Leonardo Vilanez**
 
 ---
 
