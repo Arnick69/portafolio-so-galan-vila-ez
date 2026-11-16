@@ -1,1 +1,53 @@
+==================================================================
+ REPORTE DE AUDITORIA DE SEGURIDAD - WINDOWS (POWERSHELL)
+ Equipo: DESKTOP-FIEECEC | Fecha: 2026-11-16 11:32:05
+==================================================================
 
+------------------------------------------------------------------
+[SECCION 1] LLAVERO MAESTRO (GRUPO ADMINISTRADORES S-1-5-32-544)
+------------------------------------------------------------------
+  - DESKTOP-FIEECEC\Administrador (User) | SID: S-1-5-21-3847291045-1928374650-847362519-500
+  - DESKTOP-FIEECEC\Nicolas (User) | SID: S-1-5-21-3847291045-1928374650-847362519-1001
+Cuenta integrada (-500): Administrador | Habilitada: False
+-> Seccion 1: OK
+
+------------------------------------------------------------------
+[SECCION 2] PUERTAS ABIERTAS (PUERTOS TCP EN ESCUCHA)
+------------------------------------------------------------------
+  0.0.0.0                Puerto: 135    PID: 1024
+  0.0.0.0                Puerto: 445    PID: 4
+  127.0.0.1              Puerto: 5040   PID: 4812
+  0.0.0.0                Puerto: 49664  PID: 640
+  0.0.0.0                Puerto: 49665  PID: 1188
+-> Seccion 2: OK
+
+------------------------------------------------------------------
+[SECCION 3] PORTERO ACTIVO (PERFILES DEFENDER FIREWALL)
+------------------------------------------------------------------
+  Perfil: Domain     | Habilitado: True   | Entrada: NotConfigured
+  Perfil: Private    | Habilitado: True   | Entrada: NotConfigured
+  Perfil: Public     | Habilitado: True   | Entrada: NotConfigured
+-> Seccion 3: OK
+
+------------------------------------------------------------------
+[SECCION 4] INTENTOS FALLIDOS - EVENTOS 4625 (UMBRAL: 5)
+------------------------------------------------------------------
+Fuente analizada: Archivo de muestra (..\muestras_eventos_4625.csv)
+Conteo de eventos 4625 por IP:
+     8 fallos -> 45.83.1.20
+     4 fallos -> 91.200.5.4
+     3 fallos -> 10.0.0.7
+Detalle: IP(s) que alcanzan o superan el umbral (5):
+  - 45.83.1.20 (8 fallos)
+-> Seccion 4: ALERTA
+
+==================================================================
+[SECCION 5] VEREDICTO CONSOLIDADO DE AUDITORIA
+==================================================================
+  1. Llavero maestro   : OK
+  2. Puertas abiertas  : OK
+  3. Portero activo    : OK
+  4. Intentos fallidos : ALERTA
+------------------------------------------------------------------
+VEREDICTO FINAL: ALERTA (Se requiere revision de seguridad)
+==================================================================
