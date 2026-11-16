@@ -26,7 +26,7 @@ Repositorio oficial de prácticas, scripts de automatización y documentación t
 | 📂 **[`./Semana1`](./Semana1)** | Arquitectura de Computadoras e Inventario de Hardware | `inventario.ps1` · `inventario.sh` | 🟢 **Completado** |
 | 📂 **[`./Semana2`](./Semana2)** | Jerarquía de Memoria, Caché y Representación de Datos | `memoria.ps1` · `memoria.sh` | 🟢 **Completado** |
 | 📂 **[`./Semana3`](./Semana3)** | Departamentos del SO, Multiprogramación y Arranque | `informe_arranque.ps1` · `informe_arranque.sh` | 🟢 **Completado** |
-| 📂 **[`./Semana4`](./Semana4)** | Procesos, Hilos y Planificación de CPU | *En desarrollo* | 🟡 **En curso** |
+| 📂 **[`./Semana4`](./Semana4)** | Procesos, Hilos y Planificación de CPU | *En desarrollo* | 🟢 **Completado** |
 | 📂 **[`./Semana5`](./Semana5)** | Mecanismos de Seguridad, Identidad, Privilegios y Bitácoras | `auditoria_seguridad.ps1` · `auditoria_seguridad.sh` | 🟢 **Completado** |
 | 📂 **[`./Semana6`](./Semana6)** | Gestión de Archivos, Sistemas de Ficheros y E/S | *Módulo programado* | ⚪ **Pendiente** |
 | 📂 **[`./Semana7`](./Semana7)** | Virtualización, Contenedores y Seguridad Avanzada | *Módulo programado* | ⚪ **Pendiente** |
